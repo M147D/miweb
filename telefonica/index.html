@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas</title>
+</head>
+<body>
+    <h1>Gestor de Tareas</h1>
+    
+    <section>
+        <table>
+            <thead>
+                <th id="t_id"></th>
+                <th id="t_name"></th>
+                <th id="t_todo"></th>
+                <th id="t_prog"></th>
+                <th id="t_done"></th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="name">1</td>
+                    <td class="ico">Lavar la ropa</td>
+                    <td class="ico">X</td>
+                    <td class="ico"> </td>
+                    <td class="ico"> </td>
+                </tr>
+                <tr>
+                    <td class="name">2</td>
+                    <td class="ico">Ir al veterinario</td>
+                    <td class="ico"> </td>
+                    <td class="ico">X</td>
+                    <td class="ico"> </td>
+                </tr>
+                <tr>
+                    <td class="name">3</td>
+                    <td class="ico">Enviar correo importante</td>
+                    <td class="ico"> </td>
+                    <td class="ico"> </td>
+                    <td class="ico">X</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <form>
+        <h2>Informacion de Tarea</h2>
+
+        <div id="name">
+            <label for="task_name">Tarea</label>
+            <input type="text" id="task_name" name="task_name">
+        </div>
+        <label>Estado</label>
+        <div id="state">
+            <label for="task_name">Pendiente</label>
+            <input type="checkbox" id="task_todo" name="task_state" value="todo">
+        
+            <label for="task_prog">en Progreso</label>
+            <input type="checkbox" id="task_prog" name="task_state" value="progress">
+
+            <label for="task_done">Hecha</label>
+            <input type="checkbox" id="task_done" name="task_state" value="done">
+        </div>
+        <div id="detail">
+            <label for="text_detail">Detalle:</label>
+            <input id="text_detail" name="text_detail">
+        </div>
+        <div class="button">
+            <button type="submit">Guardar contenido>></button>
+        </div>
+    </form>
+
+    <div>
+        <input type="text" name="usuario" value="" placeholder="Usuario">
+        <input type="password" name="contraseña" value="" placeholder="Contraseña">
+    </div>
+
+</body>
+</html>
