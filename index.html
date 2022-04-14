@@ -2,42 +2,98 @@
 <html lang="en">
 
 <head>
-    <title>Mi primera web</title>
+    <meta charset="UTF-8">
+    <!--meta http-equiv="X-UA-Compatible" content="IE=edge"-->
+    <meta name="author" content="Miguel David">
+    <meta name="description" content="This page contains all the things I am learning how to 
+    create as I learn HTML.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first web page</title>
+    <link rel="icon" href="html-icon.png">
+    <link rel="stylesheet" href="main.css" type="text/css">
 </head>
 
 <body>
-    <form>
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
-        <br>
-        <label for="apellido">Apellido</label>
-        <input type="text" id="apellido" name="apellido" placeholder="Apellido" />
-        <br>
-        <textarea cols="50" rows="10" id="comentario"></textarea>
-    </form>
-    <h1>Mi primer heading</h1>
-    <h2>Mi segundo heading</h2>
-    <h3>Mi tercera heading</h3>
-    <h4>Mi cuarto heading</h4>
-    <h5>Mi quinto heading</h5>
-    <h6>Chanchito feliz</h6>
-    <p>Chanchuto feliz está muy feliz.</p>
-    <p>Chanchito triste esta muy triste.</p>
+    <h1>My Goals for the Year</h1>
+
     <hr>
-    <h2>Chanchito Felipe</h2>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="#html">Learn HTML</a>
+            </li>
+            <li>
+                <a href="#vacation">Planning a Vacation</a>
+            </li>
+            <li><span id="wwq">
+                <a href="portfolio.html" target="_blank">See my portfolio</a>
+            </span></li>
+            <li><span id="w">
+                <a href="io.html" target="_blank">See my portfolio</a>
+            </span></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <section id="html">
+        <h2>I'm Ready to Learn HTML</h2>
+        <p>This is my first web page.</p>
+
+        <h3>My Daily Schedule</h3>
+        <p>Let me tell you how:</p>
+
+        <ol>
+            <li>...I learn more about web dev.</li>
+            <li>...I plan out my schedule.</li>
+            <li>...I use resources from
+                <abbr title="Mozilla Developer Network"> <a href="https://developer.mozilla.org/"> MDN</a>
+                </abbr>.
+            </li>
+        </ol>
+    </section>
+
+    <hr>
+
+    <section id="vacation">
+        <h2>I am Also Planning a Vacation</h2>
+        <p>I've been working hard and <em>really need a gateway.</em></p>
+        <p>I live in <abbr title="Quito">UIO</abbr> so I want visit a beach.</p>
+
+        <h3>Place I'd Like to Visit</h3>
+        <ul>
+            <li>
+                <p>I've heard good things about the Murcielago Beach.</p>
+            </li>
+            <li>
+                <p>I've heard good things abput going here:</p>
+                <address>
+                    Manabí, Manta, Av. Malecón
+                </address>
+            </li>
+        </ul>
+
+        <!-- TODO: Add more places -->
+        <h3>Place I Want to Avoid</h3>
+
+        <dl>
+            <dt>North Pole</dt>
+            <dd>I hear this is <strong>cold</strong>!</dd>
+
+            <dt>South Pole</dt>
+            <dd>This is also cold.</dd>
+
+            <dt>Mountain Tops</dt>
+            <dd>thes are also cold.</dd>
+        </dl>
+    </section>
+
+    <hr>
+    &lt;&lt;&lt; &copy; <a href="about.html">Miguel David</a> &gt;&gt;&gt;
     <p>
-        Este texto es <span style="color:blue">mucho más largo</span>
-        y es para mostrar <br><br>
-        la etiqueta es span!
+        <a href="#">Back to Top</a>
     </p>
-    <!-- este texto es un comentario -->
-    <a target="_blank" href="https://www.google.com.ec">Ir a google</a>
-    <br>
-    <img src="img/706020.png" height="300" />
-    <br>
-    <img src="img/706020.png" height="300" width="200" />
-    <h1>Otro heading</h1>
-    <h1>Otro heading. Prueba 2</h1>
 </body>
 
 </html>
