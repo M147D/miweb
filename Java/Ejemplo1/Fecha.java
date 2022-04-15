@@ -1,5 +1,4 @@
-public class Fecha 
-{
+public class Fecha {
 	private int dia;
 	private int mes;
 	private int anio;
@@ -27,7 +26,39 @@ public class Fecha
 		String sAnio = s.substring( pos2+1);
 		anio =Integer.parseInt(sAnio);		
 	}
+
+	//Encaps
+	//This method return the date expressed in days
+	private int fechaToDias(){
+		return anio*360+mes*30+dia;
+	}
+
+	//This method assigns the date expressed in days a the attribute
+	private void diasToFecha(int i){
+		anio = (int)i/360;
+
+		int resto = i%360;
+
+		mes = (int) resto/30;
+
+		dia = resto%30;
+
+		if (dia==0) {
+			dia=30;
+			mes--;
+		}
+
+		if(mes==0) {
+			mes=12;
+			anio--;
+		}
+	}
 		
+	public void addDias(int d){
+		int sum=fechaToDias()+d;
+		diasToFecha(sum);
+	}
+
 	@Override//sobrescritura de metodo
 	public String toString() {
 		return dia+"/"+mes+"/"+anio;
@@ -35,7 +66,6 @@ public class Fecha
 	
 	@Override//sobrescritura de metodo
 	public boolean equals(Object obj) {
-		// TODO Auto-generated method stub
 		Fecha otra = (Fecha) obj;
 		return (dia==otra.dia) && (mes==otra.mes) && (anio==otra.anio);
 	}
@@ -58,5 +88,4 @@ public class Fecha
 	public void setAnio(int anio) {
 		this.anio = anio;
 	}	
-	
 }

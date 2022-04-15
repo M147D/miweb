@@ -14,22 +14,19 @@ public class TestFecha {
 		Fecha f1 = new Fecha(dia, mes, anio);
 
 		// Usuario ingresa datos de fecha 2
-		System.out.println("Ingrese Fecha2 (dia, mes y anio): ");
-		dia = read.nextInt();
-		mes = read.nextInt();
-		anio = read.nextInt();
-
+		System.out.println("Ingrese Fecha2 (dia/mes/anio): ");
+		String fecha2 = read.next();
 		// Creación del objeto de la clase Fecha
-		Fecha f2 = new Fecha(dia, mes, anio);
+		Fecha f2 = new Fecha(fecha2);
 
-		// Acceso individual gracias a los setters y getters
+		/*// Acceso individual gracias a los setters y getters
 		System.out.println("Dia=" + f1.getDia());
 		System.out.println("Mes=" + f1.getMes());
 		System.out.println("Anio=" + f1.getAnio());
 		
 		System.out.println("Dia=" + f2.getDia());
 		System.out.println("Mes=" + f2.getMes());
-		System.out.println("Anio=" + f2.getAnio());
+		System.out.println("Anio=" + f2.getAnio());*/
 
 		// Se obtiene resultado gracias a la sobreescritura del metodo
 		// toString en la Clase Fecha
