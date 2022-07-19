@@ -1,0 +1,10 @@
+D:\PHV\Formularios\EventosDeTeclado\bin\Debug\EventosDeTeclado.exe.config
+D:\PHV\Formularios\EventosDeTeclado\bin\Debug\EventosDeTeclado.exe
+D:\PHV\Formularios\EventosDeTeclado\bin\Debug\EventosDeTeclado.pdb
+D:\PHV\Formularios\EventosDeTeclado\obj\Debug\EventosDeTeclado.csproj.AssemblyReference.cache
+D:\PHV\Formularios\EventosDeTeclado\obj\Debug\EventosDeTeclado.Form1.resources
+D:\PHV\Formularios\EventosDeTeclado\obj\Debug\EventosDeTeclado.Properties.Resources.resources
+D:\PHV\Formularios\EventosDeTeclado\obj\Debug\EventosDeTeclado.csproj.GenerateResource.cache
+D:\PHV\Formularios\EventosDeTeclado\obj\Debug\EventosDeTeclado.csproj.CoreCompileInputs.cache
+D:\PHV\Formularios\EventosDeTeclado\obj\Debug\EventosDeTeclado.exe
+D:\PHV\Formularios\EventosDeTeclado\obj\Debug\EventosDeTeclado.pdb
